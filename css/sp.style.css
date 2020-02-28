@@ -1,0 +1,446 @@
+/* CSS Script for Pages other than Home Page */
+
+#sp-wrapp {
+    min-width: 100%;
+}
+
+#sp-menu {
+    display: none;
+}
+
+section {
+    padding: 1.00em;
+    line-height: 130%;
+    font-size: 1.05em;
+    margin-top: 1.80em;
+}
+
+section h2 {
+    text-align: center;
+    margin-top: 0.80em;
+    border-bottom: 3px solid #6f6f70;
+    color: #557da1;
+    padding-bottom: 0.40em;
+    line-height: 1.20em;
+}
+
+section p {
+    margin-bottom: 1.25em;
+}
+
+section ul {
+    list-style-type: disc;
+    margin-left: 1.40em;
+    margin-bottom: 1.25em;
+}
+
+section ul ul {
+    margin-bottom: 0.60em;
+    list-style-type: circle;
+}
+
+section ul li {
+    margin: 0.25em 0;
+}
+
+#o-udruzenju img {
+    display: none;
+}
+
+.txt-holder {
+    margin-left: 2.0em;
+    margin-bottom: 2.0em;
+}
+
+#predsednik img {
+    max-width: 100%;
+}
+
+#predsednik p {
+    margin-bottom: 0.2em;
+}
+
+#predsednik span {
+    font-size: 1.40em;
+    padding-bottom: 1.0em;
+    display: inline-block;
+    font-weight: bold;
+    color: #557da1;
+    text-align: center;
+}
+
+#nadzorni-odbor {
+    display: none;
+}
+
+#clanstvo a:link {
+    text-decoration: underline;
+    color: #557da1;
+}
+
+#clanstvo p:last-child {
+    margin-top: 2.40em;
+}
+
+.member {
+    font-size: 0.80em;
+}
+
+.member h2 {
+    width: 100%;
+    margin-bottom: 1.20em;
+}
+
+.member img {
+    max-width: 100%;
+}
+
+.member p {
+    text-align: left;
+}
+
+.member p.temp {
+    text-align: center;
+    color: transparent;
+    /* ****** dok ne dodje finalni tekst ***** */
+}
+
+.about {
+    margin-top: 1.40em;
+}
+
+.about-txt {
+    margin-top: 1.20em;
+}
+
+.about-txt span {
+    margin-bottom: 0.60em;
+    display: inline-block;
+    font-weight: bold;
+}
+
+#dokumenta a:hover {
+    text-decoration: underline;
+}
+
+.dogadjaj h2 {
+    line-height: 1.20em;
+}
+
+#agenda-links {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+#agenda-links p {
+    margin: 0;
+}
+
+#agenda-links img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+#kontakt-podaci {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#generalije {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#generalije caption {
+    padding: 0.20em 0 2.40em;
+}
+
+#generalije td:nth-child(odd) {
+    background-color: #d7bec1;
+    color: #FFFFFF;
+}
+
+#generalije td:nth-child(even) {
+    padding-left: 1.60em;
+}
+
+#generalije td {
+    padding: 0.40em;
+}
+
+.gallery {
+    margin: 2.20em 0;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+@media all and (min-width:1024px) {
+
+    #sp-menu {
+        background-image: url(../img/bg-elem-small.jpg);
+        background-repeat: no-repeat;
+        background-position: top left;
+        background-color: #FFFFFF;
+        border-bottom: 3px solid #d7bec1;
+        float: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        align-items: center;
+        width: 100%;
+        padding: 0.40em;
+    }
+
+    #sp-menu img {
+        display: block;
+        margin-left: 0.60em;
+    }
+
+    #sp-menu ul {
+        list-style-type: none;
+        display: block;
+        margin-right: 0.60em;
+    }
+
+    #sp-menu ul li {
+        display: inline-block;
+        margin: 0;
+        padding-top: 1.0em;
+        background-color: #f9fafb;
+    }
+
+    #sp-menu ul li a:link,
+    #sp-menu ul li a:visited {
+        text-decoration: none;
+        display: block;
+        font-size: 1.0em;
+        color: #6f94aa;
+        padding: 0.3em 1.0em;
+    }
+
+    #o-udruzenju,
+    #predsednik {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    #o-udruzenju h2,
+    #predsednik h2 {
+        width: 100%;
+    }
+
+    #o-udruzenju p {
+        width: 75%;
+        align-self: flex-end;
+        margin-left: 2.00em;
+        line-height: 140%;
+    }
+
+    .txt-holder {
+        width: 55%;
+    }
+
+    #o-udruzenju img {
+        display: block;
+        margin-bottom: 1.80em;
+        margin-right: 4.00em;
+        align-self: flex-start;
+    }
+
+    section {
+        font-size: 1.15em;
+        padding-top: 0;
+    }
+
+    section h2 {
+        text-align: left;
+        margin-top: 2.80em;
+        margin-left: 1.20em;
+    }
+
+
+    section p {
+        margin-left: 2.00em;
+    }
+
+    .member h2 {
+        margin-left: 0;
+        margin-bottom: 2.0em;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+
+    .about {
+        width: 100%;
+    }
+
+    .about .about-txt {
+        order: 1;
+        width: 65%;
+        text-align: left;
+        float: left;
+        padding-right: 3.60em;
+        margin-top: 0;
+    }
+
+    .about img {
+        order: 2;
+
+    }
+
+    .about ul {
+        margin-left: 3.40em;
+    }
+
+    .about span {
+        margin-left: 2.0em;
+    }
+
+    #agenda-links img {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 0.5em;
+        background-color: #DEE0EC;
+        border: 1px solid #C7CADA;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 3.40em 0;
+        grid-template-areas:
+            "img1 img1 img2 img3"
+            "img1 img1 img4 img5"
+            "img6 img7 img7 img8"
+            "img9 img7 img7 img10";
+    }
+
+    #img1 {
+        grid-area: img1;
+    }
+
+    #img2 {
+        grid-area: img2;
+    }
+
+    #img3 {
+        grid-area: img3;
+    }
+
+    #img4 {
+        grid-area: img4;
+    }
+
+    #img5 {
+        grid-area: img5;
+    }
+
+    #img6 {
+        grid-area: img6;
+    }
+
+    #img7 {
+        grid-area: img7;
+    }
+
+    #img8 {
+        grid-area: img8;
+    }
+
+    #img9 {
+        grid-area: img9;
+    }
+
+    #img10 {
+        grid-area: img10;
+    }
+
+    #kontakt {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #kontakt h2 {
+        width: 100%;
+    }
+
+    #kontakt-podaci {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #generalije {
+        width: 60%;
+    }
+
+    footer .second table caption {
+        padding: 0.20em 0 2.40em;
+        color: #ADCFEC;
+    }
+
+    footer table td:nth-child(odd) {
+        color: #ADCFEC;
+    }
+
+    footer .second table td:nth-child(even) {
+        padding-left: 1.60em;
+        color: #FFFFFF;
+    }
+
+    footer .second table td {
+        padding: 0.40em;
+    }
+
+    .first {
+        width: 15%;
+    }
+
+    .second {
+        width: 35%;
+    }
+
+    .contact {
+        min-width: 43%;
+    }
+
+    .first {
+        order: 1;
+    }
+
+    .second {
+        order: 2;
+    }
+
+    .contact {
+        order: 3;
+    }
+
+}
