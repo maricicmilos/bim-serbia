@@ -1,0 +1,21 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#agenda-wrap {
+    width: 1200px;
+    margin: 1em auto; 
+}
+
+#agenda-wrap img {
+    max-width: 100%;
+}
+
+#links {
+    text-align: center;
+    font-size: 1.20em;
+    font-weight: bold;
+    border-top: 3px solid #557da1;
+    margin-top: 1.20em;
+    
+}
